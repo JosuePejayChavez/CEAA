@@ -1,0 +1,235 @@
+header{
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    top: 0;
+}
+
+@media(max-width: 1024px){
+    .form .forms{
+        width: 100%;
+    }
+}
+
+@media(max-width: 880px){
+    form{
+        width: 100%;
+    }
+
+    .form .forms{
+        width: 100%;
+    }
+
+    .form .forms .container13{
+        width: 90%;
+    }
+
+    .form .container .forms .container11{
+        width: 100%;
+    }
+
+    .form .container .forms .container12{
+        width: 100%;
+    }
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.form {
+    border-width: 2px;
+    box-shadow: -1px -1px 6px 0 rgb(98, 21, 45), 4px 4px 16px 2px rgb(149, 47, 87);
+    border-style: solid;
+    border-color: #952f57;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 76%;
+    width: 70%;
+    position: absolute;
+    display: flex;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+}
+
+.form h1{
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.container13{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.container11{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.container12{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.apellidos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 15px;
+}
+
+.campo1{
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.campo1 i{
+    margin-right: 10px;
+    color: black;
+}
+
+.campo1 input{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.num{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 15px;
+}
+
+.campo2{
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.campo2 i{
+    margin-right: 10px;
+    color: black;
+}
+
+.campo2 input{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.eda{
+    width: 30%;
+} 
+
+.tel{
+    width: 70%;
+}
+
+.ap, .am{
+    width: 50%;
+}
+
+.v-line{
+    border-left: 1px solid #62152d;
+    height: 90%;
+    left: 50%;
+    position: absolute;
+}
+
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.campo{
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.campo i{
+    margin-right: 10px;
+    color: black;
+}
+
+.campo input{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.container2{ 
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.form h3{
+    margin-top: 35px;
+    font-size: 12px;
+}
+
+.btn{
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    border: none; 
+    color: white; 
+    padding: 12px 32px; 
+    cursor: pointer; 
+    border-radius: 5px;
+}
+
+.btn {background-color: #952f57;} 
+.btn:hover {background: #62152d;}

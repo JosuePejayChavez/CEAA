@@ -1,0 +1,136 @@
+header{
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    top: 0;
+}
+
+@media (max-width: 1000px) {
+    section .form{
+        width: 40%;
+    }
+}
+
+@media (max-width: 800px) {
+    section .form{
+        width: 50%;
+    }
+}
+
+@media (max-width: 560px) {
+    section .form{
+        width: 70%;
+    }
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.form {
+    border-width: 2px;
+    box-shadow: -1px -1px 6px 0 rgb(98, 21, 45), 4px 4px 16px 2px rgb(149, 47, 87);
+    border-style: solid;
+    border-color: #952f57;
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 55%;
+    width: 32%;
+    position: absolute;
+    display: flex;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    color: #ca668b;
+}
+
+a:hover {
+    color: #62152d;
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.form h1{
+    font-size: 32px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.campo{
+    width: 80%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.campo i{
+    margin-right: 10px;
+    color: black;
+}
+
+.campo input{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.container2{ 
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8%;
+}
+
+.btn{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    border: none; 
+    color: white; 
+    padding: 10px 30px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn {background-color: #952f57;} 
+.btn:hover {background: #62152d;}
